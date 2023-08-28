@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    background-color: var(--white);
+    height: calc(100% + 10vh);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    --bold: 900;
+    --radius: 8px;
+    --white: rgb(241, 241, 241);
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+}

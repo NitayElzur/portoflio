@@ -1,0 +1,29 @@
+#main-content {
+    width: 100%;
+
+    #header, #non-header {
+        background-color: var(--white);
+    }
+
+    #header,
+    #non-header>* {
+        display: flex;
+    }
+
+    #header {
+        width: 100%;
+        position: fixed;
+        height: 10vh;
+        align-items: center;
+        padding: 0 80px;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    #non-header {
+        width: 100%;
+        position: absolute;
+        top: 10vh;
+        
+    }
+}
