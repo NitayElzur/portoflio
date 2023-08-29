@@ -1,4 +1,5 @@
 import './Projects.css'
+import video from '../../assets/App2U.webm'
 
 function Projects() {
     return (
@@ -19,7 +20,7 @@ function Projects() {
                     </div>
                     <div className="video">
                         <video autoPlay muted loop>
-                            <source src={'/src/assets/App2U.webm'} type='video/webm'/>
+                            <source src={video} type='video/webm'/>
                         </video>
                     </div>
                 </div>
