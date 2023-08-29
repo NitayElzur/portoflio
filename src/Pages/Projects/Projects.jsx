@@ -18,8 +18,8 @@ function Projects() {
                         <div className="page-specific"></div>
                     </div>
                     <div className="video">
-                        <video autoPlay muted>
-                            <source src={'./src/assets/App2U.webm'}/>
+                        <video autoPlay muted loop>
+                            <source src={'/src/assets/App2U.webm'}/>
                         </video>
                     </div>
                 </div>
