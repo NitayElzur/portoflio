@@ -19,7 +19,7 @@ function Projects() {
                     </div>
                     <div className="video">
                         <video autoPlay muted loop>
-                            <source src={'/src/assets/App2U.webm'}/>
+                            <source src={'/src/assets/App2U.webm'} type='video/webm'/>
                         </video>
                     </div>
                 </div>
