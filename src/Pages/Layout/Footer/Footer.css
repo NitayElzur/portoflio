@@ -20,7 +20,7 @@
             >* {
                 padding: 4px;
                 flex-grow: 1;
-                transition: all 0.4s;
+                transition: all var(--transition-speed);
                 cursor: pointer;
             }
 

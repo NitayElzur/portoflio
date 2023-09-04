@@ -1,30 +1,13 @@
 import './Projects.css'
-import video from '../../assets/App2U.webm'
+import SpecificProject from './SpecificProject/SpecificProject';
+import { data as app2u } from './Data/App2U';
+import {data as confrence} from './Data/Confrence';
 
 function Projects() {
     return (
         <div id="projects-main">
-            <div className="project">
-                <div className="title">App2U</div>
-                <div className="subtitle">A real time song choosing and playing web-app that saves your playlists and gives you statistics about your customers</div>
-                <div className='devider'>
-                    <div className="left-side">
-                        <div className="role">Backend developer and library integretor</div>
-                        <div className="role-desc">Incharge of most of the backend functions such as fetching data from youtube and pushing it to the specific establishment into the correct date</div>
-                        <div className="tech-title">Technologies:</div>
-                        <div className="tech-desc">React, React Player, MongoDB, Youtube API</div>
-                        <div className="links">
-
-                        </div>
-                        <div className="page-specific"></div>
-                    </div>
-                    <div className="video">
-                        <video autoPlay muted loop>
-                            <source src={video} type='video/webm'/>
-                        </video>
-                    </div>
-                </div>
-            </div>
+            <SpecificProject data={app2u}/>
+            <SpecificProject data={confrence}/>
         </div>
     )
 }

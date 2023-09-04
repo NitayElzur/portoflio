@@ -12,6 +12,7 @@
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         border-radius: var(--radius);
         padding: 20px 0;
+        margin: 40px 0;
 
         .title,
         .subtitle {
@@ -26,19 +27,42 @@
 
         .devider {
             display: flex;
-            width: 80%;
+            width: 90%;
 
             .left-side {
                 width: 40%;
                 line-height: 1.5;
 
                 .role,
-                .tech-title {
+                .tech-title,
+                .links-title,
+                .specific-page {
                     font-weight: var(--bold);
+                }
+
+                .links a {
+                    position: relative;
+                }
+
+                .links a::after {
+                    content: '';
+                    position: absolute;
+                    bottom: -2px;
+                    left: 0;
+                    height: 1.25px;
+                    width: 0;
+                    background-color: black;
+                    transition: all var(--transition-speed);
+                }
+
+                .links a:hover::after {
+                    width: 100%;
                 }
             }
 
             .video {
+                width: 55%;
+
                 >video {
                     width: 100%;
                 }

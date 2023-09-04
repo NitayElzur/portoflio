@@ -20,6 +20,7 @@ body,
     --bold: 900;
     --radius: 8px;
     --white: rgb(241, 241, 241);
+    --transition-speed: 0.4s;
 }
 
 a {
