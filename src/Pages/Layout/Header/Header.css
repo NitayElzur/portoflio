@@ -47,3 +47,11 @@
         right: -12px;
     }
 }
+
+@media screen and (width < 768px) {
+    #right-side {
+        >* {
+            padding: 0 2px;
+        }
+    }
+}

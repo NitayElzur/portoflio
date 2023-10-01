@@ -7,13 +7,8 @@ function Header() {
     return (
         <>
             <Link to='/'>
-                {pathname === '/'
-                    ?
-                    <div>
-                        {/* Click the links! */}
-                    </div>
-                    :
-                    <div>Nitay Elzur</div>
+                {pathname !== '/' &&
+                    <div>Home</div>
                 }
             </Link>
             <div id="right-side">

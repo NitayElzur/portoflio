@@ -15,3 +15,9 @@
         font-size: 24px;
     }
 }
+
+@media screen and (width < 768px) {
+    #main-home {
+        text-align: center;
+    }
+}

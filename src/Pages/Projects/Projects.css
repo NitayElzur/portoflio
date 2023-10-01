@@ -70,3 +70,25 @@
         }
     }
 }
+
+@media screen and (width < 768px) {
+    #projects-main {
+        .project {
+            .subtitle {
+                width: 90%;
+                line-height: 1.4;
+            }
+            .devider {
+                flex-direction: column;
+
+                .left-side {
+                    width: 90%;
+                }
+
+                .video {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
