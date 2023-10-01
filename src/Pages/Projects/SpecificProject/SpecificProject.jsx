@@ -45,7 +45,7 @@ function SpecificProject({ data }) {
                 </div>
                 <div className="video">
                     <video autoPlay muted loop>
-                        <source src={video} type='video/webm' />
+                        <source src={video} type='video/webm' about='Video'/>
                     </video>
                 </div>
             </div>
