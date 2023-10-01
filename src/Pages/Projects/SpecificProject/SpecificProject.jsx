@@ -45,7 +45,8 @@ function SpecificProject({ data }) {
                 </div>
                 <div className="video">
                     <video autoPlay muted loop>
-                        <source src={video} type='video/webm' about='Video'/>
+                        <source src={video} type='video/webm' about='Video' />
+                        <div style={{ textAlign: 'center' }}>Video is loading</div>
                     </video>
                 </div>
             </div>
