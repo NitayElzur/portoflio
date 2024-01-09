@@ -41,7 +41,7 @@ function SpecificProject({ data }) {
                             })
                         }
                     </div>
-                    <Link to={page_route} className='specific-page'>Click to see more about {title}</Link>
+                    {/* <Link to={page_route} className='specific-page'>Click to see more about {title}</Link> */}
                 </div>
                 <div className="video">
                     <video autoPlay muted loop>
