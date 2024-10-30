@@ -6,22 +6,22 @@ function Header() {
     const { pathname } = useLocation();
     return (
         <>
-            <Link to='/'>
+            <Link className='links' to='/'>
                 {pathname !== '/' &&
-                    <div>Home</div>
+                    <span>Home</span>
                 }
             </Link>
             <div id="right-side">
-                <Link to='/project'>
+                <Link className='links' to='/project'>
                     <span>Projects</span>
                 </Link>
-                <a href="https://drive.google.com/file/d/1W_iG_ss2b_0WTFhiQfUHy4HjKAHP_bQ4/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a className='links' href="https://drive.google.com/file/d/1DKJ3eQGXfikUuGoxwr2vx5jHMubhrK80/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                     <span>Resume</span>
                 </a>
-                <a href="https://github.com/NitayElzur" target="_blank" rel="noopener noreferrer">
+                <a className='links' href="https://github.com/NitayElzur" target="_blank" rel="noopener noreferrer">
                     <span>Github</span>
                 </a>
-                <a href="https://www.linkedin.com/in/nitay-elzur" target="_blank" rel="noopener noreferrer">
+                <a className='links' href="https://www.linkedin.com/in/nitay-elzur" target="_blank" rel="noopener noreferrer">
                     <span>Linkedin</span>
                 </a>
             </div>

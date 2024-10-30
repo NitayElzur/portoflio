@@ -2,50 +2,50 @@
     display: flex;
     width: 60%;
     justify-content: space-around;
+}
 
-    >a {
-        position: relative;
-        transition: all var(--transition-speed);
-    }
+.links {
+    position: relative;
+    transition: all var(--transition-speed);
+}
 
-    >a:hover {
-        transform: scale(1.15);
-    }
+.links:hover {
+    transform: scale(1.15);
+}
 
-    >a>span::after,
-    >a>span::before {
-        content: '';
-        width: 8px;
-        height: 8px;
-        position: absolute;
-        top: 4px;
-        opacity: 0.1;
-        transition: all var(--transition-speed);
-    }
+.links>span::after,
+.links>span::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 4px;
+    opacity: 0.1;
+    transition: all var(--transition-speed);
+}
 
-    >a>span::after {
-        left: calc(50% - 8px);
-        border-top: 3px solid;
-        border-left: 3px solid;
-        transform: rotate(-0.125turn);
-    }
+.links>span::after {
+    left: calc(50% - 8px);
+    border-top: 3px solid;
+    border-left: 3px solid;
+    transform: rotate(-0.125turn);
+}
 
-    >a>span::before {
-        right: calc(50% - 8px);
-        border-bottom: 3px solid;
-        border-right: 3px solid;
-        transform: rotate(-0.125turn);
-    }
+.links>span::before {
+    right: calc(50% - 8px);
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    transform: rotate(-0.125turn);
+}
 
-    >a>span:hover::after {
-        opacity: 1;
-        left: -12px;
-    }
+.links>span:hover::after {
+    opacity: 1;
+    left: -12px;
+}
 
-    >a>span:hover::before {
-        opacity: 1;
-        right: -12px;
-    }
+.links>span:hover::before {
+    opacity: 1;
+    right: -12px;
 }
 
 @media screen and (width < 768px) {
